@@ -5,7 +5,7 @@ import os
 import json
 
 # Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC9Lz4qHl0rUnOZ1ofODd-bA9txbzhE2Nk"
+os.environ["GOOGLE_API_KEY"] = "Your API here"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # App creation
